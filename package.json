@@ -19,7 +19,7 @@
     "type": "git",
     "url": "https://github.com/liulongbin1314/escook-theme.git"
   },
-  "icon": "https://github.com/liulongbin1314/escook-theme/blob/master/icon.png",
+  "icon": "https://raw.githubusercontent.com/liulongbin1314/escook-theme/master/icon.png",
   "contributes": {
     "themes": [
       {
