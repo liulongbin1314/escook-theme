@@ -12,14 +12,14 @@
   ],
   "license": "SEE LICENSE IN LICENSE.txt",
   "bugs": {
-    "url": "https://github.com/Microsoft/vscode-themes/issues"
+    "url": "https://github.com/liulongbin1314/escook-theme/issues"
   },
-  "homepage": "https://github.com/Microsoft/vscode-themes/blob/master/material/README.md",
+  "homepage": "https://github.com/liulongbin1314/escook-theme/blob/master/README.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Microsoft/vscode-themes.git"
+    "url": "https://github.com/liulongbin1314/escook-theme.git"
   },
-  "icon": "icon.svg",
+  "icon": "https://github.com/liulongbin1314/escook-theme/blob/master/icon.png",
   "contributes": {
     "themes": [
       {
