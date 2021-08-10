@@ -2,7 +2,7 @@
   "name": "escook-theme",
   "displayName": "escook-theme",
   "description": "彬哥の VSCode 主题 →_→ 黑马程序员 · 北京顺义校区前端教研部",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "liulongbin1314",
   "engines": {
     "vscode": "^1.13.0"
