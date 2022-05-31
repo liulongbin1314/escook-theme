@@ -1,5 +1,10 @@
 # Change Log
 
+## v0.0.5
+
+- Increased highlighting of typescript syntax
+- Replaced some highlight colors under Light Themes
+
 ## v0.0.4
 
 - escook-theme-light
@@ -10,12 +15,12 @@
 
 ## v0.0.2
 
-### 新增主题
+### Add Theme
 
 - escook light soft
 - escook dark soft
 
-### 修改主题名称
+### Modified the name of the theme
 
 - escook-theme-light -> escook light
 - escook-theme-dark -> escook dark

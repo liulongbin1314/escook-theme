@@ -158,7 +158,6 @@
 		"gitDecoration.deletedResourceForeground": "#f27983b3",
 		"gitDecoration.untrackedResourceForeground": "#a6cc70b3",
 		"gitDecoration.ignoredResourceForeground": "#484f5e",
-		"gitDecoration.conflictingResourceForeground": "",
 		"gitDecoration.submoduleResourceForeground": "#d4bfffb3",
 		"settings.headerForeground": "#cbccc6",
 		"settings.modifiedItemIndicator": "#77a8d9",
@@ -787,6 +786,76 @@
 			"scope": "source.go meta.function-call.go",
 			"settings": {
 				"foreground": "#DDDDDD"
+			}
+		},
+		{
+			"name": "TS 泛型の右尖括号",
+			"scope": "punctuation.definition.typeparameters.end",
+			"settings": {
+				"foreground": "#FFC654"
+			}
+		},
+		{
+			"name": "TS 泛型の左尖括号",
+			"scope": "punctuation.definition.typeparameters.begin",
+			"settings": {
+				"foreground": "#FFC654"
+			}
+		},
+		{
+			"name": "函数形参",
+			"scope": "variable.parameter",
+			"settings": {
+				"foreground": "#FD8B19"
+			}
+		},
+		{
+			"name": "TS 泛型1",
+			"scope": "meta.var-single-variable.expr",
+			"settings": {
+				"foreground": "#1290BF"
+			}
+		},
+		{
+			"name": "TS 类型注解",
+			"scope": "meta.type.declaration",
+			"settings": {
+				"foreground": "#1290BF"
+			}
+		},
+		{
+			"name": "TS 类型注解",
+			"scope": "meta.type.annotation",
+			"settings": {
+				"foreground": "#17A5DB"
+			}
+		},
+		{
+			"name": "TS 类型 type 定义",
+			"scope": "entity.name.type.alias",
+			"settings": {
+				"foreground": "#1290BF"
+			}
+		},
+		{
+			"name": "TS 类型 interface 定义",
+			"scope": "entity.name.type.interface",
+			"settings": {
+				"foreground": "#1290BF"
+			}
+		},
+		{
+			"name": "TS 中 CSS 属性值",
+			"scope": "support.constant.property-value",
+			"settings": {
+				"foreground": "#F77669"
+			}
+		},
+		{
+			"name": "TS 中 JS 属性",
+			"scope": "meta.object-literal.key",
+			"settings": {
+				"foreground": "#fff"
 			}
 		}
 	]

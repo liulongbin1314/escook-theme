@@ -2,17 +2,22 @@
 	"name": "escook-theme-dark",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#263238",
+		"editor.background": "#252526",
 		"editor.foreground": "#80CBC470",
+		"titleBar.activeBackground": "#252526",
 		"editorCursor.foreground": "#FFCC00",
 		"editorWhitespace.foreground": "#65737e",
 		"editor.lineHighlightBackground": "#00000030",
 		"editor.selectionBackground": "#80CBC420",
 		"editorIndentGuide.background": "#37474F80",
-		"activityBar.foreground": "#ff0303",
-    "activityBar.background": "#000000",
-    "contrastActiveBorder": "#ff0000",
-    "statusBar.background": "#5c0000"
+		"list.focusOutline": "#AA0F27",
+		"list.activeSelectionBackground": "#464647",
+		"activityBar.foreground": "#ff0000",
+		"activityBar.background": "#252526",
+		"activityBar.inactiveForeground": "#AA0F27",
+		"activityBarBadge.background": "#ff0000",
+		"contrastActiveBorder": "#ff0000",
+		"statusBar.background": "#5c0000"
 	},
 	"tokenColors": [
 		{
@@ -423,8 +428,7 @@
 		{
 			"name": "SublimeLinter Error Underline",
 			"scope": "sublimelinter.underline.illegal",
-			"settings": {
-			}
+			"settings": {}
 		},
 		{
 			"name": "SublimeLinter Warning Outline",
@@ -436,8 +440,7 @@
 		{
 			"name": "SublimeLinter Warning Underline",
 			"scope": "sublimelinter.underline.warning",
-			"settings": {
-			}
+			"settings": {}
 		},
 		{
 			"name": "SublimeLinter Violation Outline",
@@ -449,8 +452,7 @@
 		{
 			"name": "SublimeLinter Violation Underline",
 			"scope": "sublimelinter.underline.violation",
-			"settings": {
-			}
+			"settings": {}
 		},
 		{
 			"name": "SublimeLinter Error",
@@ -622,6 +624,69 @@
 			"scope": "source.go meta.function-call.go",
 			"settings": {
 				"foreground": "#DDDDDD"
+			}
+		},
+		{
+			"name": "TS 泛型の右尖括号",
+			"scope": "punctuation.definition.typeparameters.end",
+			"settings": {
+				"foreground": "#FFC654"
+			}
+		},
+		{
+			"name": "TS 泛型の左尖括号",
+			"scope": "punctuation.definition.typeparameters.begin",
+			"settings": {
+				"foreground": "#FFC654"
+			}
+		},
+		{
+			"name": "函数形参",
+			"scope": "variable.parameter",
+			"settings": {
+				"foreground": "#FD8B19"
+			}
+		},
+		{
+			"name": "TS 泛型1",
+			"scope": "meta.var-single-variable.expr",
+			"settings": {
+				"foreground": "#1290BF"
+			}
+		},
+		{
+			"name": "TS 类型注解",
+			"scope": "meta.type.declaration",
+			"settings": {
+				"foreground": "#1290BF"
+			}
+		},
+		{
+			"name": "TS 类型注解",
+			"scope": "meta.type.annotation",
+			"settings": {
+				"foreground": "#17A5DB"
+			}
+		},
+		{
+			"name": "TS 类型 type 定义",
+			"scope": "entity.name.type.alias",
+			"settings": {
+				"foreground": "#1290BF"
+			}
+		},
+		{
+			"name": "TS 类型 interface 定义",
+			"scope": "entity.name.type.interface",
+			"settings": {
+				"foreground": "#1290BF"
+			}
+		},
+		{
+			"name": "TS 中 CSS 属性值",
+			"scope": "support.constant.property-value",
+			"settings": {
+				"foreground": "#F77669"
 			}
 		}
 	]

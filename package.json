@@ -1,7 +1,7 @@
 {
   "name": "escook-theme",
   "displayName": "escook-theme",
-  "description": "彬哥の VSCode 主题 →_→ 黑马程序员 · 北京顺义校区前端教研部",
+  "description": "彬哥の VSCode 主题 →_→ escook-theme",
   "version": "0.0.4",
   "publisher": "liulongbin1314",
   "engines": {
@@ -23,22 +23,22 @@
   "contributes": {
     "themes": [
       {
-        "label": "escook light",
+        "label": "escook Light",
         "uiTheme": "vs",
         "path": "./themes/escook-theme-light-color-theme.json"
       },
       {
-        "label": "escook light soft",
+        "label": "escook Light Soft",
         "uiTheme": "vs",
         "path": "./themes/escook-theme-light-soft-color-theme.json"
       },
       {
-        "label": "escook dark",
+        "label": "escook Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/escook-theme-dark-color-theme.json"
       },
       {
-        "label": "escook dark soft",
+        "label": "escook Dark Soft",
         "uiTheme": "vs-dark",
         "path": "./themes/escook-theme-dark-soft-color-theme.json"
       }
