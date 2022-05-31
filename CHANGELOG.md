@@ -1,5 +1,9 @@
 # Change Log
 
+## v0.0.6
+
+- fixed color style
+
 ## v0.0.5
 
 - Increased highlighting of typescript syntax

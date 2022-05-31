@@ -827,21 +827,29 @@
 			"name": "TS 类型注解",
 			"scope": "meta.type.annotation",
 			"settings": {
-				"foreground": "#17A5DB"
+				"foreground": "#17A5DB",
+				"fontStyle": "italic bold"
 			}
 		},
 		{
 			"name": "TS 类型 type 定义",
-			"scope": "entity.name.type.alias",
+			"scope": [
+				"entity.name.type.ts",
+			],
 			"settings": {
-				"foreground": "#1290BF"
+				"foreground": "#1290BF",
+				"fontStyle": "bold italic"
 			}
 		},
 		{
-			"name": "TS 类型 interface 定义",
-			"scope": "entity.name.type.interface",
+			"name": "TS 类型 type 定义",
+			"scope": [
+				"entity.name.type.alias",
+				"entity.name.type.interface"
+			],
 			"settings": {
-				"foreground": "#1290BF"
+				"foreground": "#1290BF",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -856,6 +864,13 @@
 			"scope": "meta.object-literal.key",
 			"settings": {
 				"foreground": "#fff"
+			}
+		},
+		{
+			"name": "TS 中 JS 属性",
+			"scope": "meta.definition.property.ts",
+			"settings": {
+				"fontStyle": "italic"
 			}
 		}
 	]

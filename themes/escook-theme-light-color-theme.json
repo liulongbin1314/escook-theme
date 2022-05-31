@@ -273,7 +273,7 @@
 			"scope": "punctuation.definition.typeparameters.end",
 			"settings": {
 				"foreground": "#ff0000",
-				"fontStyle": "bold"
+				"fontStyle": "bold italic"
 			}
 		},
 		{
@@ -281,7 +281,7 @@
 			"scope": "punctuation.definition.typeparameters.begin",
 			"settings": {
 				"foreground": "#ff0000",
-				"fontStyle": "bold"
+				"fontStyle": "bold italic"
 			}
 		},
 		{
@@ -311,7 +311,7 @@
 			"scope": "meta.type.parameters",
 			"settings": {
 				"foreground": "#1290BF",
-				"fontStyle": "italic bold underline"
+				"fontStyle": "italic bold"
 			}
 		},
 		{
@@ -325,7 +325,16 @@
 			"name": "TS 类型注解",
 			"scope": "meta.type.annotation",
 			"settings": {
-				"foreground": "#17A5DB"
+				"foreground": "#17A5DB",
+				"fontStyle": "italic bold"
+			}
+		},
+		{
+			"name": "TS 类型 type 定义",
+			"scope": "entity.name.type.ts",
+			"settings": {
+				"foreground": "#1290BF",
+				"fontStyle": "italic bold"
 			}
 		},
 		{
@@ -340,6 +349,14 @@
 			"scope": "entity.name.type.interface",
 			"settings": {
 				"foreground": "#1290BF"
+			}
+		},
+		{
+			"name": "TS 类型 interface 定义",
+			"scope": "meta.definition.property.ts",
+			"settings": {
+				"foreground": "#1290BF",
+				"fontStyle": "italic"
 			}
 		}
 	]
