@@ -439,7 +439,10 @@
 		},
 		{
 			"name": "函数形参",
-			"scope": "variable.parameter",
+			"scope": [
+				"variable.parameter",
+				"support.function"
+			],
 			"settings": {
 				"foreground": "#FD8B19",
 				"fontStyle": "bold"
