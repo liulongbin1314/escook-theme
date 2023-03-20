@@ -46,11 +46,11 @@
 		"list.invalidItemForeground": "#586070",
 		"activityBar.background": "#1f2430",
 		"activityBar.foreground": "#707a8ccc",
-		"activityBar.border": "#1f2430",
+		"activityBar.border": "#191E2A",
 		"activityBarBadge.background": "#ffcc66",
 		"activityBarBadge.foreground": "#1f2430",
 		"sideBar.background": "#1f2430",
-		"sideBar.border": "#1f2430",
+		"sideBar.border": "#191E2A",
 		"sideBarTitle.foreground": "#ABB2BF",
 		"sideBarSectionHeader.background": "#1f2430",
 		"sideBarSectionHeader.foreground": "#707a8c",
@@ -134,7 +134,7 @@
 		"panelTitle.inactiveForeground": "#707a8c",
 		"statusBar.background": "#1f2430",
 		"statusBar.foreground": "#707a8c",
-		"statusBar.border": "#1f2430",
+		"statusBar.border": "#191E2A",
 		"statusBar.debuggingBackground": "#f29e74",
 		"statusBar.debuggingForeground": "#1f2430",
 		"statusBar.noFolderBackground": "#232834",
@@ -146,7 +146,7 @@
 		"titleBar.activeForeground": "#cbccc6",
 		"titleBar.inactiveBackground": "#1f2430",
 		"titleBar.inactiveForeground": "#707a8c",
-		"titleBar.border": "#1f2430",
+		"titleBar.border": "#191E2A",
 		"extensionButton.prominentForeground": "#1f2430",
 		"extensionButton.prominentBackground": "#ffcc66",
 		"extensionButton.prominentHoverBackground": "#fac761",
@@ -179,14 +179,47 @@
 		"terminal.ansiBrightMagenta": "#d4bfff",
 		"terminal.ansiBrightCyan": "#95e6cb",
 		"terminal.ansiBrightWhite": "#ffffff",
-		"tree.indentGuidesStroke": "#151A1F"
+		"tree.indentGuidesStroke": "#151A1F",
+		"menu.separatorBackground": "#191E2A"
 	},
 	"tokenColors": [
 		{
 			"name": "Text",
-			"scope": "variable.parameter.function",
+			"scope": [
+				"variable.parameter.function",
+				"punctuation.separator.comma.js"
+			],
 			"settings": {
 				"foreground": "#eeffffff"
+			}
+		},
+		{
+			"name": "对象的属性",
+			"scope": [
+				"meta.object-literal.key.ts",
+				"meta.object-literal.key.js"
+			],
+			"settings": {
+				"foreground": "#FEDD6E"
+			}
+		},
+		{
+			"name": "键值对的分隔符",
+			"scope": [
+				"punctuation.separator.key-value.ts",
+				"punctuation.separator.key-value.js",
+			],
+			"settings": {
+				"foreground": "#80CBC4"
+			}
+		},
+		{
+			"name": "jsx组件的标签",
+			"scope": [
+				"support.class.component.tsx"
+			],
+			"settings": {
+				"foreground": "#EE7278"
 			}
 		},
 		{

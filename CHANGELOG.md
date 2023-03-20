@@ -1,5 +1,9 @@
 # Change Log
 
+## v0.0.7
+
+- This update optimizes the style of all themes
+
 ## v0.0.6
 
 - fixed color style

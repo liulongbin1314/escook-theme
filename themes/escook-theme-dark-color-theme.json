@@ -5,26 +5,88 @@
 		"editor.background": "#252526",
 		"editor.foreground": "#80CBC470",
 		"titleBar.activeBackground": "#252526",
+		"titleBar.border": "#202020",
 		"editorCursor.foreground": "#FFCC00",
 		"editorWhitespace.foreground": "#65737e",
 		"editor.lineHighlightBackground": "#00000030",
 		"editor.selectionBackground": "#80CBC420",
+		"sideBar.border": "#202020",
 		"editorIndentGuide.background": "#37474F80",
-		"list.focusOutline": "#AA0F27",
-		"list.activeSelectionBackground": "#464647",
-		"activityBar.foreground": "#ff0000",
+		"list.focusOutline": "#2e2e2e",
+		"list.activeSelectionBackground": "#2e2e2e",
+		"activityBar.foreground": "#77777b",
 		"activityBar.background": "#252526",
-		"activityBar.inactiveForeground": "#AA0F27",
-		"activityBarBadge.background": "#ff0000",
-		"contrastActiveBorder": "#ff0000",
-		"statusBar.background": "#5c0000"
+		"activityBar.border": "#202020",
+		"activityBar.inactiveForeground": "#49494b",
+		"activityBarBadge.background": "#77777b",
+		"statusBar.background": "#252526",
+		"statusBar.foreground": "#ccc",
+		"statusBar.border": "#202020",
+		"panel.border": "#202020",
+		"tab.activeBorder": "#EF820C",
+		"tab.activeBackground": "#29292C",
+		"tab.inactiveBackground": "#252526",
+		"panelTitle.activeBorder": "#CCCCCC",
+		"panelTitle.activeForeground": "#CCCCCC",
+		"panelTitle.inactiveForeground": "#888",
+		"sash.hoverBorder": "#5c0000",
+		"button.background": "#EF820C",
+		"textLink.foreground": "#FFCC00",
+		"input.border": "#77777B",
+		"input.foreground": "#fafafa",
+		"input.placeholderForeground": "#b3b9bf",
+		"inputOption.activeBorder": "#ff9940",
+		"inputValidation.errorBackground": "#fafafa",
+		"inputValidation.errorBorder": "#f51818",
+		"inputValidation.infoBackground": "#fafafa",
+		"inputValidation.infoBorder": "#55b4d4",
+		"inputValidation.warningBackground": "#fafafa",
+		"inputValidation.warningBorder": "#f2ae49",
+		"focusBorder": "#ff9940",
+		"menu.background": "#29292C",
+		"menu.foreground": "#898989",
+		"menu.selectionForeground": "#ccc",
+		"menu.border": "#202020",
+		"menu.separatorBackground": "#202020"
 	},
 	"tokenColors": [
 		{
 			"name": "Text",
-			"scope": "variable.parameter.function",
+			"scope": [
+				"variable.parameter.function",
+				"punctuation.separator.comma.js"
+			],
 			"settings": {
 				"foreground": "#eeffffff"
+			}
+		},
+		{
+			"name": "对象的属性",
+			"scope": [
+				"meta.object-literal.key.ts",
+				"meta.object-literal.key.js"
+			],
+			"settings": {
+				"foreground": "#FEDD6E"
+			}
+		},
+		{
+			"name": "键值对的分隔符",
+			"scope": [
+				"punctuation.separator.key-value.ts",
+				"punctuation.separator.key-value.js",
+			],
+			"settings": {
+				"foreground": "#80CBC4"
+			}
+		},
+		{
+			"name": "jsx组件的标签",
+			"scope": [
+				"support.class.component.tsx"
+			],
+			"settings": {
+				"foreground": "#EE7278"
 			}
 		},
 		{
